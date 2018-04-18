@@ -98,6 +98,7 @@ nav ul {
     font-size: 35px;
     font-family: 'Allan', cursive;
     color: grey;
+    margin-top: 0px;
 }
 .about {
 	padding: 40px 0 106px;
@@ -110,6 +111,7 @@ nav ul {
 .about h1{
 	font-size: 105px;
 	color: #576267;
+	margin-bottom: 20px;
 	/*font-family: "nimbus-sans";*/
 }
 
@@ -118,6 +120,7 @@ nav ul {
     font-size: 35px;
     font-family: 'Allan', cursive;
     color: grey;
+    margin-top: 0px;
 }
 
 
@@ -130,9 +133,12 @@ nav ul {
 #project{
 	height: 1400px;
 }
+
 #project h1{
+	font-size: 30px;
 	display: block;
 	text-align: center;
+	color: #576267;
 }
 
 .column{
@@ -151,6 +157,7 @@ nav ul {
 }
 .title{
 	text-align: left !important;
+	 margin-top: 0px;
 }
 .video{
 	width: 40%;

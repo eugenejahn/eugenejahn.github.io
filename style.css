@@ -1,0 +1,302 @@
+body{
+	margin-top: 0px;
+	background: #eee;
+	margin-bottom:0px;
+/*	margin-left: 10px;
+	margin-right: 10px;*/
+}
+nav{
+	position:fixed;
+	width: 100%;
+	left: 0;
+	right: 0;
+	transition: all 0.24s linear;
+	z-index: 1000;
+	display: inline-block;
+
+}
+
+#top{
+	margin-top: 0px;
+	width: 100%;
+	height: 20%;
+}
+
+.container{
+	margin:0px;
+	background:#fff;
+	border-top-style: solid;
+	border-top-color: #ddf7f0;
+	border-top-width: 10px;
+	border-bottom: 1px solid rgba(185, 190, 191, 0.5);
+	display: inline-block;
+	width: 100%;
+}
+
+nav h1 {
+	width:	40%;
+	margin:	0px;
+	margin-left: 2%;
+	margin-top: 2%;
+	font-size: 30px;
+	display: inline-block;
+	font-family: 'Domine', serif;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+li a{
+	margin-left: 0%;
+	margin-right: 15px;
+	font-size: 30px;
+	color: black; 
+	text-decoration: none;
+	font-family: 'Gamja Flower', cursive;
+
+}
+
+li a:hover {
+	color: green;
+}
+
+nav ul {
+
+	float: right;
+	display: block;
+	margin:0px;
+	margin-top: 2%;
+	margin-right: 2.12766%;
+	width: 48.93617%;
+	text-align: right;
+	left: 80%;
+
+}
+.intro {
+	padding: 120px 0 106px;
+	margin-left: 4.25532%;
+	margin-right: 4.25532%;
+	/*border-bottom: 1px solid rgba(185, 190, 191, 0.5);
+	border-bottom-width: 70%;*/
+	border-bottom-style: groove;
+    border-bottom-color: #ddf7f0;
+    border-bottom-width: 10px;
+}
+.about {
+	padding: 40px 0 106px;
+	margin-left: 4.25532%;
+	margin-right: 4.25532%;
+	/*border-bottom: 1px solid rgba(185, 190, 191, 0.5);
+	border-bottom-width: 70%;*/
+}
+
+.about h1{
+	font-size: 105px;
+}
+
+.about p{
+	font-size: 25px;
+}
+
+.intro h2 {
+	font-family: "nimbus-sans";
+	color: #576267;
+	font-size: 72px;
+	line-height: 1em;
+	margin: 0 0 0.22em;
+	letter-spacing: -0.03em;
+}
+
+#wrap{
+	max-width: 77.5em;
+	margin: 0 auto;
+	background: #fff;
+}
+
+#project{
+	height: 1400px;
+}
+#project h1{
+	display: block;
+	text-align: center;
+}
+
+.column{
+	height: 20%;
+	width: 100%;
+	margin-right: 4.25532%;
+}
+.content{
+	height: 100%;
+	width: 45%;
+	display: inline-block;
+	top:0px;
+	vertical-align: top;
+	margin-left: 4.25532%;
+
+}
+.title{
+	text-align: left !important;
+}
+.video{
+	width: 40%;
+	height: 100%;
+	display: inline-block;
+	margin-left: 4.25532%;
+}
+
+
+footer{
+	height: 200px;
+	background-color: #3a3e3f;
+}
+
+#copyright{
+	color: #e4dada;
+	display: inline-block;
+	width: 20%;
+	padding-top: 15%;
+}
+
+#icon{
+	float: right;
+	padding-top: 5%;
+	width: 40%;
+	display: inline-block;
+}
+/*#icon a{
+	display: block;
+}*/
+
+/*icon*/
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+/*  background: #3B5998;
+*/  color: white;
+}
+
+.fa-google {
+/*  background: #dd4b39;
+*/  color: white;
+}
+
+.fa-linkedin {
+/*  background: #007bb5;
+*/  color: white;
+}
+.fa-github-alt{
+	color: white;
+}
+
+/* other code from aaron*/
+
+#contest{
+/*	position: relative;
+*/	height: 1100px;
+	/*padding: 100px 0 100px;*/
+	/*margin-left: 4.25532%;*/
+
+	border-bottom: 1px solid rgba(185, 190, 191, 0.5);
+
+}
+a{
+	display: block;
+}
+#defHack{
+	height: 100%;
+	width: 65%;
+	background-color: #000;
+	background-image: url('http://defhacks.io/img/defhacks-logos/defhacks-wordmark-logo-white-green.png');	
+	background-size: 90% 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+/*	margin-right: 9%;
+*/	display: inline-block;
+}
+
+#olami{
+	display: inline-block;
+	height: 100%;
+	width: 33%;
+	background-color: #8673c9;
+	background-image: url('https://avatars0.githubusercontent.com/u/27720326?s=400&v=4.png');	
+	background-size: 90% 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0px;
+	
+}
+
+#hackNTU{
+	display: inline-block;
+	height: 100%;
+	width: 65%;
+	background-color: rgb(159, 255, 101);;
+	background-image: url('https://hackntu.github.io/HackingMap/static/img/hackntu-logo.90bac1a.png');	
+	background-size: 90% 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0px;
+	float: right;
+}
+
+
+#hololen{
+	display: inline-block;
+	height: 100%;
+	width: 33%;
+	background-color: #8673c9;
+	background-image: url('https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2015/microsoftint.jpg');	
+	background-size: 100% 100%;
+	margin: 0px;
+	float: right;
+}
+#codeday{
+	height: 100%;
+	width: 65%;
+	background-color: #000;
+	background-image: url('http://www.lifeblue.com/media/blog/codeday_logo.png');	
+	background-size: 90% 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+/*	margin-right: 9%;
+*/	display: inline-block;
+}
+
+#first{
+	display: inline-block;
+	height: 100%;
+	width: 33%;
+	background-color: #8673c9;
+	background-image: url('http://team4element.com/wp-content/uploads/2013/06/frc-logo@2x.png');	
+	background-size: 100% 100%;
+	margin: 0px;
+	float: right;
+}
+
+/*.column{
+	height: 30%;
+	width: 100%;
+}*/
+
+.gap{
+	width:100%;
+	height: 2.5%;
+}
+
+

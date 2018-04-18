@@ -33,14 +33,14 @@ nav{
 	width: 100%;
 }
 
-nav h1 {
+nav p {
 	width:	40%;
 	margin:	0px;
 	margin-left: 2%;
-	margin-top: 2%;
-	font-size: 30px;
+	margin-top: 1%;
+	font-size: 40px;
 	display: inline-block;
-	font-family: 'Domine', serif;
+	font-family: 'Gamja Flower', cursive;
 }
 
 nav ul li {
@@ -83,6 +83,22 @@ nav ul {
     border-bottom-color: #ddf7f0;
     border-bottom-width: 10px;
 }
+
+.intro h2 {
+	/*font-family: "nimbus-sans";*/
+	color: #576267;
+	font-size: 72px;
+	line-height: 1em;
+	margin: 0 0 0.22em;
+	letter-spacing: -0.03em;
+}
+
+.intro p{
+	font-weight: 400;
+    font-size: 35px;
+    font-family: 'Allan', cursive;
+    color: grey;
+}
 .about {
 	padding: 40px 0 106px;
 	margin-left: 4.25532%;
@@ -93,20 +109,17 @@ nav ul {
 
 .about h1{
 	font-size: 105px;
+	color: #576267;
+	/*font-family: "nimbus-sans";*/
 }
 
 .about p{
-	font-size: 25px;
+	font-weight: 400;
+    font-size: 35px;
+    font-family: 'Allan', cursive;
+    color: grey;
 }
 
-.intro h2 {
-	font-family: "nimbus-sans";
-	color: #576267;
-	font-size: 72px;
-	line-height: 1em;
-	margin: 0 0 0.22em;
-	letter-spacing: -0.03em;
-}
 
 #wrap{
 	max-width: 77.5em;

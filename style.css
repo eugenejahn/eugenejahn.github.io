@@ -187,7 +187,7 @@ footer{
 }
 
 #award{
-	height: 400px;
+	height: 530px;
 }
 
 #award h1{
@@ -198,13 +198,26 @@ footer{
 }
 
 #award h2{
-	margin-left: 4.25532%;
+	margin-left: 5%;
+	margin-top: 0px;
+	font-size: 20px;
+	color: #576267;
 /*	margin-top: 20px;
 	text-align: center;
 	font-size: 50px;
 	color: #576267;*/
 }
-
+#award p{
+	margin-left: 4.25532%;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #576267;
+}
+span{
+	color:#ad4e4ee0;
+	font-size: 23px;
+}
 .line{
 	margin-left: 4.25532%;
 	margin-right: 4.25532%;

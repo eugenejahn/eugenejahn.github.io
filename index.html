@@ -4,6 +4,8 @@
 <title>Eugene Jahn</title>
 <link href="https://fonts.googleapis.com/css?family=Allan|Domine|Gamja+Flower|Source+Sans+Pro:400i" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 
 <link rel="stylesheet" href="style.css">
 
@@ -77,7 +79,13 @@
 						The application is built by Unity. It can calculate the best force and angle to shoot the ball from the user's position and also records the force and angle that the user's shoot. This app is made to help the player improve their shooting skils. The future work is to implement on HoloLens.  
 					</p>
 				</div>
-				<iframe class = "video"  src="https://www.youtube.com/embed/Ubk0WUN8fJM" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+				<div class=" video w3-content w3-display-container">
+				  <iframe class = "mySlides"  src="https://www.youtube.com/embed/Ubk0WUN8fJM" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+				  <iframe class = "mySlides"  src="https://www.youtube.com/embed/dhTCkRRkxpc" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+				  <iframe class = "mySlides"  src="https://www.youtube.com/embed/pbQX1Yir8V0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+				  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+				  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+				</div>
 
 			</div>
 
@@ -192,5 +200,26 @@
 
 		</section> -->
 	</div>
+
+	<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
 </body>
 </html>

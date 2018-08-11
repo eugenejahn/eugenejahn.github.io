@@ -201,6 +201,19 @@
 		</section> -->
 	</div>
 
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("top").style.top = "0";
+  } else {
+    document.getElementById("top").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
 	<script>
 var slideIndex = 1;
 showDivs(slideIndex);
@@ -219,6 +232,8 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";  
 }
+
+
 </script>
 
 </body>

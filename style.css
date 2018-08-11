@@ -192,7 +192,7 @@ footer{
 }
 
 #experience{
-	height: 500px;
+	height: 650px;
 	border-bottom: 1px solid rgba(185, 190, 191, 0.5);
 }
 
@@ -201,12 +201,20 @@ footer{
 	text-align: center;
 	font-size: 50px;
 	color: #576267;
+
 }
 #experience a{
 	display: inline-block;
 	text-decoration: none;
 	color: #576267;
+	text-decoration: underline;
+    text-decoration-color: #ddf7f0;
+    text-decoration-style: double;
+    font-size: 23px;
+
 }
+
+
 #experience a:hover {
     background-color: #ddf7f0;
 

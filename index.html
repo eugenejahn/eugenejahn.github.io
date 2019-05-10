@@ -5,6 +5,9 @@
 <link href="https://fonts.googleapis.com/css?family=Allan|Domine|Gamja+Flower|Source+Sans+Pro:400i" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
 
 
 <link rel="stylesheet" href="style.css">
@@ -31,13 +34,19 @@
 		</nav>
 
 		<section class = "intro">
-			<h2>
+			<h2 class="mobile">
+				Eugene Jahn
+				<br> 
+				a software developer
+			</h2>
+
+			<h2 class="hide">
 				I'm Eugene Jahn
 				<br> 
 				a software developer
 			</h2>
-			<p>
-				I am an undergraduate researcher in UW Reality Lab
+			<p class="hide">
+				I am an undergraduate researcher at UW Reality Lab
 			</p>
 		</section>
 
@@ -46,7 +55,7 @@
 		<section id = "project">
 			<h1>PROJECTS</h1>
 
-			<div class = "column">
+			<!-- <div class = "column">
 
 				<iframe class = "video" src="https://www.youtube.com/embed/-8mePPgHmGI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -149,9 +158,48 @@
 					</p>
 				</div>
 
+			</div>-->
+
+			<a class="section" href="/"> 
+				<img src="arnote-mobile.png">
+				<p class="project-describe">AR Note Taking</p>
+			</a>
+
+
+			<div class="section"> 
+				<img src="ezpen.png">
+				<p class="project-describe">AR Garden</p>
 			</div>
 
+			<a class="section"href= "https://docs.google.com/document/d/1nUCQOsXzizBJNX4hSmgCjuO8HhbeCqMg0YXGGuUg_PY/edit?usp=sharing">
+					<img src="airbnbdata-laptop.png">
+					<p class="project-describe">AirBnd Data Visualization</p>
+			</a>
+
+			
+
+			
+
+			<div class="section"> 
+				<img src="olamirobot-nobackground.png">
+				<p class="project-describe">OLAMI</p>
+			</div>
+
+			<div class="section"> 
+				<img src="ezpen.png">
+				<p class="project-describe">EZPen</p>
+			</div>
+
+			<div class="section"> 
+				<img src="ezpen.png">
+				<p class="project-describe">Carrot Top</p>
+			</div>
+
+
+			<div style= "height:10px;"></div>
 		</section>
+
+
 		<footer>
 
 			<div id = "copyright">
@@ -165,42 +213,7 @@
 			</div>
 		</footer>
 
-<!-- 		<section id = "contest">
-			<div class = "column">
-				<a  id = "defHack" href="http://defhacks.io/seattle.html">
-				</a>
 
-				<a  id = "hololen" href="http://defhacks.io/seattle.html">
-				</a>
-				
-			</div>
-			<div class = "gap"></div>
-
-			<div class = "column">
-				
-				<a  id = "olami" href="http://defhacks.io/seattle.html">
-				</a>
-				<a  id = "hackNTU" href="http://defhacks.io/seattle.html">
-				</a>
-
-			</div>
-
-			<div class = "gap"></div>
-
-			<div class = "column">
-				
-				<a  id = "codeday" href="http://defhacks.io/seattle.html">
-				</a>
-				<a  id = "first" href="http://defhacks.io/seattle.html">
-				</a>
-
-			</div>
-
-		</section>
-		<section id = "project">
-			
-
-		</section> -->
 	</div>
 
 <script>
@@ -217,23 +230,23 @@ var currentScrollPos = window.pageYOffset;
 </script>
 
 	<script>
-var slideIndex = 1;
-showDivs(slideIndex);
+// var slideIndex = 1;
+// showDivs(slideIndex);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
+// function plusDivs(n) {
+//   showDivs(slideIndex += n);
+// }
 
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
+// function showDivs(n) {
+//   var i;
+//   var x = document.getElementsByClassName("mySlides");
+//   if (n > x.length) {slideIndex = 1}    
+//   if (n < 1) {slideIndex = x.length}
+//   for (i = 0; i < x.length; i++) {
+//      x[i].style.display = "none";  
+//   }
+//   x[slideIndex-1].style.display = "block";  
+// }
 
 
 </script>

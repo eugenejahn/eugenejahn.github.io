@@ -439,6 +439,11 @@ a{
 	width: 100%;
 }
 
+.section iframe{
+	 width: 100%;
+    min-height: 263px;
+}
+
 .project-describe{
     margin: 0px;
     margin-bottom: 9px;
@@ -475,6 +480,16 @@ a{
 	.hide{
 		display: none;
 	}
-
+	li a{
+		margin-right: 5px;
+    	font-size: 14px;
+	}
+	nav p{
+		letter-spacing: -.2rem; 
+		font-size: 18px;
+	}
+	.intro h2{
+	    font-size: 33px;
+	}
 
 }

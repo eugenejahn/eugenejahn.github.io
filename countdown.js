@@ -155,7 +155,7 @@ startButton.addEventListener('click', function() {
 		if (globalSetting){
 			var item = namesList[Math.floor(Math.random() * namesList.length)];
 			headerNames.textContent = item;
-			console.log("hey")
+			// console.log("hey")
 		}
 		// headerNames.textContent = namesList[i++ % namesList.length];
 	}, 50);
@@ -175,6 +175,28 @@ stopButton.addEventListener('click', function() {
 	// }
 	// startTimer();
 	stopData(headerNames.textContent);
+
+	var questionListeners = firebase.database().ref('questions');
+
+	questionListeners.once('value').then((snapshot) => { 
+	    // updateStarCount(postElement, snapshot.val());
+	    var object = snapshot.val()
+
+		// object = postListRef.val()
+		for (var property in object) {
+			if (object[property].content === headerNames.textContent){
+				object[property].status = true
+				// console.log(headerNames.textContent)
+				// console.log(object[property].content)
+
+				var postListRef = firebase.database().ref('questions/'+property);
+				postListRef.set({
+				    status: true,
+				    content: headerNames.textContent
+				});
+			}
+		}
+	})
 });
 
 // Allow use of spacebar to start/stop name shuffle
@@ -255,7 +277,6 @@ questionListeners.on('value', function(snapshot) {
 
 
 	for (const property in object) {
-  		namesList.push(object[property].content);
   		// console.log(property)
 
   		let li = document.createElement('li');
@@ -263,9 +284,17 @@ questionListeners.on('value', function(snapshot) {
 	    li.className = "tests"
 
 	    li.innerHTML += object[property].content;
+
+	    if (object[property].status ){
+	    	li.className += " cross"
+	    }else{
+	    	namesList.push(object[property].content);
+	    }
+
+	    li.id = property
 	}
 
-    console.log(namesList)
+    // console.log(namesList)
 });
 
 

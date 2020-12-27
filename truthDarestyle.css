@@ -5,9 +5,12 @@ body {
 	 margin-top: 10%;
 	 color: #fff;
 	 font-family: Georgia, serif;
-	 font-size: 80px;
-	 text-align: center;
+/*	 font-size: 80px;
+*/	 text-align: center;
 	 cursor: pointer;
+
+    height: 43vh;
+    font-size: 7.5vw;
 }
  .button {
 	 width: 150px;
@@ -29,6 +32,19 @@ body {
  #stopButton {
 	 background: #f00;
 	 display: none;
+    margin-bottom: 25px;
+    height: 30vh;
+    width: 40vw;
+    font-size: 7vw;
+    line-height: 27vh;}
+
+ #startButton {
+    margin-bottom: 25px;
+    height: 30vh;
+    width: 40vw;
+    font-size: 7vw;
+    line-height: 27vh;
+
 }
  #timerWrapper {
 	 margin: 50px 0;
@@ -87,6 +103,7 @@ body {
 	 letter-spacing: 2px;
 	 display: block;
 	 cursor: pointer;
+	 width: 42vw;
 
 }
 
@@ -101,7 +118,8 @@ body {
 }
 
 #data{
-	width: 100px;
+    width: 40vw;
+
 }
 
  @media only screen and (max-width: 600px) {
@@ -116,6 +134,9 @@ body {
     background: white !important;
     color: black;
     border-color: white;
+        width: 100px;
+    height: 58px;
+    font-size: 21px;
 }
 
 

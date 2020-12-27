@@ -2,7 +2,7 @@ body {
 	 background: #333;
 }
  h1#headerNames {
-	 margin-top: 10%;
+	margin-top: 20vw;
 	 color: #fff;
 	 font-family: Georgia, serif;
 /*	 font-size: 80px;
@@ -32,16 +32,14 @@ body {
  #stopButton {
 	 background: #f00;
 	 display: none;
-    margin-bottom: 25px;
-    height: 30vh;
-    width: 40vw;
+    margin-bottom: 10vw;    height: 30vh;
+    width: 73vw;    
     font-size: 7vw;
     line-height: 27vh;}
 
  #startButton {
-    margin-bottom: 25px;
-    height: 30vh;
-    width: 40vw;
+    margin-bottom: 10vw;    height: 30vh;
+    width: 73vw;    
     font-size: 7vw;
     line-height: 27vh;
 
@@ -137,6 +135,7 @@ body {
         width: 100px;
     height: 58px;
     font-size: 21px;
+
 }
 
 
